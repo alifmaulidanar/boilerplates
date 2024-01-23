@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-react-vite-tailwind-express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run fe && npm run be",
+    "fe": "cd frontend && npm run dev",
+    "be": "cd backend && npm run dev",
+    "build:fe": "cd frontend && npm run build",
+    "preview:fe": "cd frontend && npm run preview"
+  },
+  "author": "",
+  "license": "ISC"
+}
